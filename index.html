@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    1. git把文件存到了哪里
+    2. git 存到了 objects这个文件夹下
+    3  key = 通过hash算法算出的内容的字符串 value = blob \0 这个文件的内容
+    4  不能知道文件夹 和 嵌套文件夹
+    5 tree {
+        blob index.html hash值   == 
+        tree    js hash值
+    }
+    6 js tree {
+        blob index.html hash值
+    }
+</body>
+</html>
